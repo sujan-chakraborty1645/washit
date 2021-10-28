@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.our{
+  
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display:grid;
+
+  grid-template-columns: 146.74px 146.74px 146.74px 146.74px 146.74px;
+  grid-template-rows: 152px;
+   row-gap: 25px;
+   column-gap: 25px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+   flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    width:1000px;
+    height: 180px;
+  
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.ourservice{
+  width: 146.74px;
+  height: 152px;
+  text-align: center;
+  box-shadow:0.25px 0.25px 5px #eceaea;
+  border-radius: 10px;
+  margin-top: 7px;
+  background-color: #FFFFFF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.ourheadline{
+  text-align: center;
+  width: 70%;
+  font-size: 32px;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+   color: #26547C;
+   font-weight: 400;
+   
+  
+}
+
+@media (max-width:768px) {
+   .our{
+     grid-template-columns: 150.74px 150.74px;
+     grid-template-rows: 156px 156px 156px 156px ;
+     width: 400px;
+     height: 800px ;
+     padding: 10px;
+     column-gap: 20px;
+     row-gap: 20px;
+     margin: auto;
   }
-  to {
-    transform: rotate(360deg);
+  .ourservice{
+    width: 150.74px;
+    height: 156px;
   }
+
+  .ourheadline{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media (max-width:480px) {
+  .our{
+    grid-template-columns: 148.74px;
+    grid-template-rows: 154px 154px 154px 154px 154px;
+    width: 200px;
+    height: 800px ;
+    padding: 10px;
+    column-gap: 15px;
+    row-gap: 20px;
+    margin: auto;
+
+ }
+ .ourservice{
+   width: 148.74px;
+   height: 154px;
+
+ }
+
+ .ourheadline{
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
 }
