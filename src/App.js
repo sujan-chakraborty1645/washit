@@ -2,6 +2,7 @@
 import './App.css';
 import {Our} from './ourservice';
 import { Testimonials } from './testimonials';
+import { Footer } from './footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Our/>
       <Testimonials/>
+      <Footer/>
     </div>
   );
 }

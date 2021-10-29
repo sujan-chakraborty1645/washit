@@ -132,6 +132,82 @@ color: #2E2828;
 
 }
 
+.footer_container{
+  position: absolute;
+width:100%;
+height: 312px;
+
+align-items: center;
+
+background: #212121;
+}
+
+.footer{
+  width: 77%;
+  height: 181px;
+  display: grid;
+  grid-template-columns: 265px 152px 238px;
+  grid-template-rows: 181px;
+  row-gap: 200px;
+  column-gap: 200px;
+  border: 1px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 61px;
+  margin-bottom: 29px;
+}
+
+.footer_title{
+  font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+color: #FFFFFF;
+margin-left: 29px;
+margin-bottom: 35px;
+}
+.footer_list{
+  margin-right: 5px;
+  margin-left: 0px;
+}
+.footer_list_item{
+  font-family: sans-serif;
+font-style: normal;
+font-size: 13px;
+color: #FFFFFF;
+list-style: none;
+font-weight: -10px;
+
+}
+
+.footergrid{
+  text-align: start;
+  border:1px solid white;
+  justify-content: start;
+  align-items: start;
+}
+
+.footer_about_info{
+  color: #FFFFFF;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+.footer_end{
+  height: 39px;
+  width: 100%;
+  color: #FFFFFF;
+  background-color: #000000;
+  position: absolute;
+  padding: 7px;
+  font-size: 11.5px;
+  text-align: center;
+}
+
+
+
+
 @media(max-width:1280px){
   
   .testimonials{
