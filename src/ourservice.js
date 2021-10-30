@@ -1,4 +1,10 @@
-import react from 'react';
+
+import wash from './image/wash.png';
+import cleaning from './image/cleaning.png';
+import dry from './image/dry.png';
+import fold from './image/fold.png';
+import iron from './image/iron.png';
+
 
 
 
@@ -8,12 +14,11 @@ export let Our=()=>{
         <>
         <h2 className="ourheadline">Our Services</h2>
         <div className="our">
-        <Ourservice 
-        title="cleaning"/>
-        <Ourservice title="washing"/>
-        <Ourservice title="washing"/>
-        <Ourservice title="washing"/>
-        <Ourservice title="washing"/>
+        <Ourservice title="wash" back={wash}/>
+        <Ourservice title="Fold" back={fold}/>
+        <Ourservice title="Iron" back={iron}/>
+        <Ourservice title="Dry" back={dry}/>
+        <Ourservice title="Cleaning" back={cleaning}/>
          </div>
         </>
     )
@@ -23,6 +28,7 @@ let Ourservice=(props)=>{
     return(
         <>
           <div className="ourservice">
+              <img src={props.back} alt="hghg"/>
               <h3>{props.title}</h3>
 
           </div>
