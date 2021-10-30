@@ -14,7 +14,7 @@ export let Our=()=>{
         <>
         <h2 className="ourheadline">Our Services</h2>
         <div className="our">
-        <Ourservice title="wash" back={wash}/>
+        <Ourservice title="Wash" back={wash}/>
         <Ourservice title="Fold" back={fold}/>
         <Ourservice title="Iron" back={iron}/>
         <Ourservice title="Dry" back={dry}/>
@@ -28,8 +28,8 @@ let Ourservice=(props)=>{
     return(
         <>
           <div className="ourservice">
-              <img src={props.back} alt="hghg"/>
-              <h3>{props.title}</h3>
+              <img src={props.back} alt="hghg" className="ourservice_image"/>
+              <h6>{props.title}</h6>
 
           </div>
         </>

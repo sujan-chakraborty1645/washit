@@ -2,7 +2,7 @@ export let Testimonials=()=>{
     return(
         <>
          <div className="testimonials_cover">
-              <h3 className="ourheadline">Testimonials</h3> 
+              <h3 className="ourheadline" style={{color:'white'}}>Testimonials</h3> 
             <div className="testimonials">
                    <div className="testimonial_image1"></div>
                    <div className="testimonial_text">

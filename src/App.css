@@ -36,6 +36,24 @@
   overflow: hidden;
 }
 
+.ourservice_image{
+  width: 65.05px;
+  height: 60.38px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  margin-top: 29.08px;
+  margin-bottom: 10px;
+}
+.ourservice h6{
+  font-family: 'Roboto','serif';
+  font-weight: -20;
+font-style: normal;
+font-size: 14px;
+text-align: center;
+color: #292929;
+}
+
 .ourservice:hover{
   transform: scale(1.07);
   box-shadow: 2px 2px 15px #E8E8E8;
@@ -46,7 +64,7 @@
   width: 201px;
   height:40px;
   font-size: 32px;
-  font-family: 'Rhodium Libre';
+  font-family: 'Rhodium Libre', serif;
   font-weight: normal;
   
  margin-top: 86px;
@@ -114,7 +132,7 @@ transition: 1s;
 .testimonial_text_name{
 width: 200px;
 height: 32px;
-font-family: sans-serif;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: bold;
 font-size: 30px;
@@ -127,21 +145,20 @@ margin-bottom: 5px;
   width: 238px;
   height: 32px;
   
-  font-family:sans-serif;
+  font-family:'Roboto';
   font-style: normal;
-  font-weight: 550;
+  font-weight: 400;
   font-size: 19px;
   color: #2E2828;
   margin-bottom:4px;
 }
 
 .testimonial_text_comment{
-  font-family: sans-serif;
+  font-family: 'Roboto';
 font-style: normal;
-font-weight: 550;
-font-size: 23px;
+font-size: 25px;
 
-color: #2E2828;
+color: black;
 
 }
 
@@ -212,9 +229,8 @@ background: #212121;
 }
 
 .footer_title{
-  font-family: sans-serif;
+  font-family: 'Roboto','serif';
 font-style: normal;
-font-weight: bold;
 font-size: 15px;
 color: #FFFFFF;
 margin-left: 29px;
@@ -225,14 +241,16 @@ margin-bottom: 35px;
   margin-left: 0px;
 }
 .footer_list_item{
-  font-family: sans-serif;
+  font-family: 'Roboto';
+  font-weight: normal;
 font-style: normal;
-font-size: 13px;
+font-size: 14px;
 color: #FFFFFF;
 list-style: none;
-font-weight: -10px;
+font-weight: normal;
 text-decoration: none !important;
 cursor:pointer;
+margin-bottom: 2px;
 
 
 }
@@ -264,8 +282,8 @@ cursor:pointer;
 
 .footer_about_info{
   color: #FFFFFF;
-  font-size: 13px;
-  font-family: sans-serif;
+  font-size: 15px;
+  font-family: 'Abhaya Libre';
   font-style: normal;
 }
 
@@ -518,6 +536,7 @@ justify-content: center;
     row-gap: 31.07px;
     margin: auto;
     margin-bottom: 160px;
+    margin-top: 50px;
  }
  .ourservice{
    width: 148.74px;
@@ -529,6 +548,7 @@ justify-content: center;
    width: 70%;
    margin-left: auto;
    margin-right: auto;
+   
  }
 
  
